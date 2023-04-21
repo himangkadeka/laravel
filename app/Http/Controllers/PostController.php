@@ -34,7 +34,9 @@ class PostController extends Controller
        return redirect()->back()->with('message', 'Employee Data has been saved');;
         // return view('employee',$data);
      }
-
+public function(){
+}
     
     
 }
+
